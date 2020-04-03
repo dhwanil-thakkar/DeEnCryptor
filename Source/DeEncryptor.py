@@ -99,6 +99,7 @@ def main():
         print("\n please choose from the menu and  press the corresponding number: ")
         print("\n 1. Encrypt a File \n 2. Decrypt a File \n 3. Exit the program")
         choice = input("\n\nwhat do you wanna do? ")
+        choice = str(choice)
         if choice == "1":
             EncytorDecryptor = EncryptDecrypt()
             EncytorDecryptor.encfile()
